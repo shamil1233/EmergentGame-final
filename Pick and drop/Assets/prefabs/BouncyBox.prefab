@@ -39,7 +39,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1725943912071546}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.81, y: -2.95, z: 0}
+  m_LocalPosition: {x: 4.0880737, y: 2.9152594, z: 0}
   m_LocalScale: {x: 1, y: 0.7, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -77,18 +77,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0036301017, y: -0.0012149811}
+  m_Offset: {x: -0.0036298037, y: -0.01174894}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.25, y: 1.25}
+    oldSize: {x: 1.4166666, y: 0.75}
     newSize: {x: 1.25, y: 1.25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.2209593, y: 1.2677937}
+  m_Size: {x: 1.3612895, y: 0.7617014}
   m_EdgeRadius: 0
 --- !u!68 &68025880524111724
 EdgeCollider2D:
@@ -105,8 +105,8 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -0.63451, y: -0.61451226}
-  - {x: -0.63477, y: 0.62224215}
+  - {x: -0.7079551, y: -0.32410893}
+  - {x: -0.71386456, y: 0.34797257}
 --- !u!68 &68387115037516602
 EdgeCollider2D:
   m_ObjectHideFlags: 1
@@ -122,8 +122,9 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 0.63217986, y: 0.6219996}
-  - {x: 0.6331755, y: -0.6140116}
+  - {x: 0.6886759, y: 0.35579646}
+  - {x: 0.699975, y: 0.2912627}
+  - {x: 0.6952777, y: -0.3754074}
 --- !u!212 &212006957172063956
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -159,8 +160,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300004, guid: 3ece754a3909519448ba0b6eaa0184e1, type: 3}
-  m_Color: {r: 0.6127626, g: 0.6482169, b: 0.8490566, a: 1}
+  m_Sprite: {fileID: 21300012, guid: 5a11ea1894ff018478f1f8dc3451409b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
