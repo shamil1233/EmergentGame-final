@@ -10,7 +10,7 @@ public class Player2Scr : MonoBehaviour {
 	Text yourScore;
 	// Use this for initialization
 	void Start () {
-		scoreValue = 0;
+		
 		score = GetComponent<Text>();
 	}
 	

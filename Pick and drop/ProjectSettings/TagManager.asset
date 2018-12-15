@@ -9,6 +9,7 @@ TagManager:
   - Player2
   - TNT
   - ground
+  - changeScene
   layers:
   - Default
   - TransparentFX
