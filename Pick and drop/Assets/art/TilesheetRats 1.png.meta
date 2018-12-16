@@ -1,16 +1,15 @@
 fileFormatVersion: 2
-guid: 27a0ebe5a5512b74e8e465994810f7fc
+guid: e382e582d426b54439ff95643670a230
 TextureImporter:
   fileIDToRecycleName:
-    21300000: ratSprites_0
-    21300002: ratSprites_1
-    21300004: ratSprites_2
-    21300006: ratSprites_3
-    21300008: ratSprites_4
-    21300010: ratSprites_5
-    21300012: ratSprites_6
-    21300014: ratSprites_7
-    21300016: ratSprites_8
+    21300000: TilesheetRats 1_0
+    21300002: TilesheetRats 1_1
+    21300004: TilesheetRats 1_2
+    21300006: TilesheetRats 1_3
+    21300008: TilesheetRats 1_4
+    21300010: TilesheetRats 1_5
+    21300012: TilesheetRats 1_6
+    21300014: TilesheetRats 1_7
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -54,7 +53,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 180
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,73 +92,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ratSprites_0
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 749
-        width: 313
-        height: 280
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27a5ff581b5fd284283de81075454a19
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ratSprites_1
-      rect:
-        serializedVersion: 2
-        x: 595
-        y: 717
-        width: 305
-        height: 310
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5fc6dd7fb151d594681bd3829dc85c9e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ratSprites_2
-      rect:
-        serializedVersion: 2
-        x: 1245
-        y: 709
-        width: 266
-        height: 318
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 450811e4eaf1b284db413f8b068d8a5c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ratSprites_3
+      name: TilesheetRats 1_0
       rect:
         serializedVersion: 2
         x: 5
-        y: 378
-        width: 322
-        height: 291
+        y: 525
+        width: 146
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,19 +106,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f96c4fa327d5844590ffc8736b0b761
+      spriteID: c7e8c32e30b306449a0bc9bb0b2a36bc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratSprites_4
+      name: TilesheetRats 1_1
       rect:
         serializedVersion: 2
-        x: 586
-        y: 360
-        width: 325
-        height: 309
+        x: 318
+        y: 458
+        width: 224
+        height: 248
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,19 +126,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14a5f78a14532db4c84cdd82d089d1ce
+      spriteID: 26ebb62eb3497c440ba8905595abd928
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratSprites_5
+      name: TilesheetRats 1_2
       rect:
         serializedVersion: 2
-        x: 1216
-        y: 350
-        width: 304
-        height: 320
+        x: 4
+        y: 227
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,19 +146,79 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e927ef98ebda624aaca2c2dd7f34a6b
+      spriteID: 507a6f86a60037543aabee57aa58ed20
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratSprites_6
+      name: TilesheetRats 1_3
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 228
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07dc32683dea5d7468ec03d0db3dc8f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesheetRats 1_4
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 191
+        width: 213
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26380cb32b8a98c4d9e65ac28c67c42f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesheetRats 1_5
       rect:
         serializedVersion: 2
         x: 0
+        y: 6
+        width: 158
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c208a552750e7a045af7ad1621b62baa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesheetRats 1_6
+      rect:
+        serializedVersion: 2
+        x: 343
         y: 3
-        width: 329
-        height: 302
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,19 +226,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17d7df5f14ef42a48abd40a50778de06
+      spriteID: eb41b5658b8832d4f9326de0ca344462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratSprites_7
+      name: TilesheetRats 1_7
       rect:
         serializedVersion: 2
-        x: 584
+        x: 685
         y: 0
-        width: 327
-        height: 311
+        width: 170
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,27 +246,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f261fd3cad50754a9c71523f95452a4
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ratSprites_8
-      rect:
-        serializedVersion: 2
-        x: 1232
-        y: 10
-        width: 300
-        height: 304
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88d12875077b73b4ab609d7efb9bd0ce
+      spriteID: a6c3225a3a3e2904ca0a9fffed9c3727
       vertices: []
       indices: 
       edges: []
@@ -275,7 +254,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: e27764ec37ef1a740979e7a8c132e598
+    spriteID: 93e9f7fd50527ca41a4f2d94897b0df2
     vertices: []
     indices: 
     edges: []
