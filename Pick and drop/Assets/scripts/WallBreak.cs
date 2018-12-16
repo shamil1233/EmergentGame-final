@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class  WallBreak: MonoBehaviour {
+public class TNT1 : MonoBehaviour {
 
 bool colCheck;
 public Transform player;
