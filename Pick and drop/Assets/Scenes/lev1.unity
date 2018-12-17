@@ -221,6 +221,52 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &224399415
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4818928035069010, guid: 7b888644ec59918408021ed1c0458797, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -3.7687364
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818928035069010, guid: 7b888644ec59918408021ed1c0458797, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 4.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818928035069010, guid: 7b888644ec59918408021ed1c0458797, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818928035069010, guid: 7b888644ec59918408021ed1c0458797, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818928035069010, guid: 7b888644ec59918408021ed1c0458797, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818928035069010, guid: 7b888644ec59918408021ed1c0458797, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818928035069010, guid: 7b888644ec59918408021ed1c0458797, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818928035069010, guid: 7b888644ec59918408021ed1c0458797, type: 2}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 1134250798743926, guid: 7b888644ec59918408021ed1c0458797, type: 2}
+      propertyPath: m_Name
+      value: BigBox (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7b888644ec59918408021ed1c0458797, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &241422842
 GameObject:
   m_ObjectHideFlags: 0
