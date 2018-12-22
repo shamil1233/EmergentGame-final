@@ -10,7 +10,10 @@ public Transform groundCheck;
 bool onTheGround = false;
 public float velY;
 
-Rigidbody2D rigBody;
+public bool jump = false;
+public Animator animator;
+
+    Rigidbody2D rigBody;
 
 void Start()
 {
@@ -24,5 +27,15 @@ void Update()
 		velY = 0f;
 		rigBody.AddForce(new Vector2(0, jumpForce));
 	}
-}
+        if (onTheGround)
+        {
+            jump = false;
+            animator.SetBool("IsJumping", false);
+        }
+        else
+        {
+            jump = true;
+            animator.SetBool("IsJumping", true);
+        }
+    }
 }

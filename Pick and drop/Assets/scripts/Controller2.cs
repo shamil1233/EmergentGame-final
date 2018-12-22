@@ -10,6 +10,7 @@ public class Controller2: MonoBehaviour
     float velY;
     bool facingRight = true;
     Rigidbody2D rigBody;
+    public Animator animator;
 
     // Use this for initialization
     void Start()
@@ -23,6 +24,7 @@ public class Controller2: MonoBehaviour
         velX = Input.GetAxisRaw("Horizontal2");
         velY = rigBody.velocity.y;
         rigBody.velocity = new Vector2(velX * Speed, velY);
+        animator.SetFloat("Speed", Mathf.Abs(velX));
     }
 
     void LateUpdate()
