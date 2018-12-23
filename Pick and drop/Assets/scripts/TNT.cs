@@ -14,7 +14,7 @@ public class TNT : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.tag.Equals("Player1") || col.gameObject.tag.Equals("Player2"))
+        if (col.gameObject.tag.Equals("Player") || col.gameObject.tag.Equals("Player2"))
         {
             Triggered = true;
             StartCoroutine (Destroy());
@@ -25,7 +25,7 @@ public class TNT : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.tag.Equals("Player1"))
+        if (col.gameObject.tag.Equals("Player"))
         {
             DestroyableObject1Detected = true;
             
