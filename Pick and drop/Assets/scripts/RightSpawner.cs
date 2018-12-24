@@ -31,7 +31,7 @@ public GameObject prefab1;
 				break;
 			}
 			nextSpawn = Time.time + spawnRate;
-			randX = Random.Range(-6f, 5f);
+			randX = Random.Range(-2f, 1f);
 			spawnPosition = new Vector2 (randX, transform.position.y);
 			Instantiate(prefab1, spawnPosition, Quaternion.identity);
 

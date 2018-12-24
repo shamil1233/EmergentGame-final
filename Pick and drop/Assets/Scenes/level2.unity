@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bigBox: {fileID: 1134250798743926, guid: 7b888644ec59918408021ed1c0458797, type: 2}
-  spawnRate: 150
+  spawnRate: 6
 --- !u!4 &138304323
 Transform:
   m_ObjectHideFlags: 0
@@ -600,7 +600,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab1: {fileID: 1962443702412818, guid: 8f4520338a8be24499232167e85d24de, type: 2}
-  spawnRate: 25
+  spawnRate: 2
 --- !u!4 &546478900
 Transform:
   m_ObjectHideFlags: 0
@@ -970,7 +970,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab1: {fileID: 1962443702412818, guid: 8f4520338a8be24499232167e85d24de, type: 2}
-  spawnRate: 25
+  spawnRate: 5
 --- !u!4 &1058579191
 Transform:
   m_ObjectHideFlags: 0
@@ -1160,7 +1160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bigBox: {fileID: 1134250798743926, guid: 7b888644ec59918408021ed1c0458797, type: 2}
-  spawnRate: 150
+  spawnRate: 50
 --- !u!224 &1343155394 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 224501533317114020, guid: beef28e2d64b81546a292ed1b9ddb668,

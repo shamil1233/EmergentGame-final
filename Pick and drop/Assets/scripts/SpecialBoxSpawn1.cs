@@ -26,7 +26,7 @@ public GameObject bigBox;
 				break;
 			}
 			nextSpawn = Time.time + spawnRate;
-			randX = Random.Range(-28f, -25f);
+			randX = Random.Range(-27f, -24.5f);
 			spawnPosition = new Vector2 (randX, transform.position.y);
 			Instantiate(bigBox, spawnPosition, Quaternion.identity);
 			
