@@ -886,6 +886,11 @@ Prefab:
       propertyPath: m_Name
       value: Player2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 114794814851226646, guid: 5f5f31ef5a5f5b443afe2096bbad5e52,
+        type: 2}
+      propertyPath: jumpForce
+      value: 2400
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f5f31ef5a5f5b443afe2096bbad5e52, type: 2}
   m_IsPrefabAsset: 0
@@ -2017,7 +2022,7 @@ MonoBehaviour:
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 40
-    OrthographicSize: 17.21
+    OrthographicSize: 9.7
     NearClipPlane: 0.1
     FarClipPlane: 5000
     Dutch: 0
@@ -4732,7 +4737,7 @@ Camera:
   far clip plane: 5000
   field of view: 40
   orthographic: 1
-  orthographic size: 17.21
+  orthographic size: 9.7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -11702,6 +11707,11 @@ Prefab:
     - target: {fileID: 1039211673442458, guid: 338024688ca43604dae8e1d4d5b2f619, type: 2}
       propertyPath: m_Name
       value: Player1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114430500057580722, guid: 338024688ca43604dae8e1d4d5b2f619,
+        type: 2}
+      propertyPath: jumpForce
+      value: 2400
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 338024688ca43604dae8e1d4d5b2f619, type: 2}
