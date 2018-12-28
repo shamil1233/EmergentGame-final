@@ -26,13 +26,13 @@ public class Drag2 : MonoBehaviour
         onTheGround = Physics2D.Linecast(transform.position, groundCheck.position, theGround);
         Physics2D.queriesStartInColliders = false;
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.right * transform.localScale.x, distance, boxMask);
-        if (hit.collider != null && hit.collider.gameObject.tag == "draggable" && Input.GetKeyDown(KeyCode.P) && onTheGround)
+        if (hit.collider != null && hit.collider.gameObject.tag == "draggable" && Input.GetKeyDown(KeyCode.Keypad1) && onTheGround)
         {
             box = hit.collider.gameObject;
             box.GetComponent<FixedJoint2D>().enabled = true;
             box.GetComponent<FixedJoint2D>().connectedBody = this.GetComponent<Rigidbody2D>();
         }
-        else if (Input.GetKeyUp(KeyCode.P))
+        else if (Input.GetKeyUp(KeyCode.Keypad1))
         {
             box.GetComponent<FixedJoint2D>().enabled = false;
         }
