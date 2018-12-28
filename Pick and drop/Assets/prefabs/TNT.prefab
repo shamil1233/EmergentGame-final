@@ -48,7 +48,7 @@ GameObject:
   - component: {fileID: 114918864607839324}
   m_Layer: 10
   m_Name: TNT
-  m_TagString: TNT
+  m_TagString: draggable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
